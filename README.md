@@ -11,7 +11,6 @@ I use it with OBS and other program to handle it from distance but you can use i
 
 ![Picture2](https://user-images.githubusercontent.com/37775910/147397820-3fd6d592-b1a7-41b7-9f4d-ae04019c11b5.png)
 
-Fast Money:
 ![Picture4](https://user-images.githubusercontent.com/37775910/147397824-94b500e7-8921-4f73-a118-068f9dbb14f2.png)
 
 
@@ -19,7 +18,7 @@ Fast Money:
 You can modify the txt files to change the answers and points.
 Example:
 
-*Game*
+###Game
 
 3              // Number of answers
 
@@ -35,7 +34,7 @@ TOYS           // Answer n°3
 
 11             // Answer n°3
 
-*Fast Money*
+###Fast Money
 
 TREES         // Answer n°1
 
