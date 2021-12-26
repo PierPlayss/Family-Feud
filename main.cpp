@@ -129,9 +129,7 @@ int main(int argc, char* argv[]) {
 	int answers;
 	int widthPoints=0, heightPoints=0;
 	int respuestas = 0;
-	//string pathTeam1 = "image.bmp";
-	//string pathTeam2 = "image.png";
-	//Mat reset = imread("res/gfx/backgroundpoints.png");	
+
 	
 	stringstream ap; string stringpoints;
 
@@ -169,8 +167,7 @@ int main(int argc, char* argv[]) {
 	Entity asw8(0, 0, 1280, 720, Slot8Texture);
 	Entity animation(0, 0, 419, 424, animationTexture);
 	Entity strike(0, 0, 1280, 720, strikeTexture);
-	//Entity x2(4800, 750, 512, 512, x2Texture);
-	//Entity x3(4800,750, 512, 512, x3Texture);
+
 
 
 	//Rects
@@ -200,11 +197,7 @@ int main(int argc, char* argv[]) {
 	string stringAnsw[2][4];
 	int answPoints[2][4];
 	string ansPointsS[2][4];
-	/*for (int i = 0; i < 2; i++) {
-		for (int j = 0; j < 4; j++) {
-			cin >> stringAnsw[i][j];
-		}
-	}*/
+	
 	float tamanio = 0;
 	bool strikeanimation = false;
 	int cantStrikes = 0;
@@ -526,21 +519,7 @@ int main(int argc, char* argv[]) {
 				window.drawText(STeam2Points.c_str(), 1173 - 35, 453, 10, 10, 10, 85);
 				window.drawText(STeam2Points.c_str(), 1170 - 35, 450, 228, 228, 224, 85);
 			}
-			//Puntaje Equipos
-
-			/*reset.copyTo(pointsTeam1(Rect(0, 0, reset.cols, reset.rows)));
-			reset.copyTo(pointsTeam2(Rect(0, 0, reset.cols, reset.rows)));
-			Mat points1 = imread(pathTeam1);
-			Mat points2 = imread(pathTeam2);
-			Scalar lower(0, 0, 0);
-			Scalar upper(200, 200, 200);
-			inRange(points1, lower, upper, mask);
-			points1.copyTo(pointsTeam1(Rect(150, 100, points1.cols, points1.rows)));
-			points2.copyTo(pointsTeam2(Rect(150, 100, points1.cols, points1.rows)));*/
-
-
-			//putText(pointsTeam1, stringpoints, { 300,300 }, FONT_HERSHEY_PLAIN, 10, Scalar(255, 255, 255), 2);
-			//putText(pointsTeam2, stringpoints, { 300,300 }, FONT_HERSHEY_PLAIN, 10, Scalar(255, 255, 255), 2);
+			
 
 			//Answers
 
@@ -616,25 +595,7 @@ int main(int argc, char* argv[]) {
 		
 
 
-			////Framerate and Animation
-			//SDL_Rect rect;
-
-			//rect.x = 0;
-			//rect.y = 0;
-			//rect.w = frameWidth;
-			//rect.h = frameHeight;
-			//
-			//
-			//rect.y += frameHeight;
-			////cout << rect.y << endl;
-			//if (rect.y >= (frameHeight * 4)) {
-			//		rect.y = 0;
-			//}
-			//Sleep(100);
-			//
-			//window.animation(animation, rect,animationpos);
-			// 
-			// 
+		
 			//Tablero correcto;
 			int cont = 0, length = 0;
 			for (int i = 0; i < 8; i++) {
@@ -717,11 +678,7 @@ int main(int argc, char* argv[]) {
 		
 		window.render(FastMoney, 1);
 	
-	/*	if (startFastMoney == false and fastmoney == true and GetAsyncKeyState('S') or GetAsyncKeyState('s')) {
-			startFastMoney = true;
-			roundone = true;
-			cout << "no queres esto" << endl;
-		}*/
+	
 	
 		
 		if (startFastMoney == true) {
@@ -833,32 +790,12 @@ int main(int argc, char* argv[]) {
 	
 	}
 
-
-	//window.animation(animation, vacio, respos);
-		//window.render(animation, 1);
-		//mouse(mouseX,mouseY);
-		//Entity mira(mouseX,mouseY, 50, 50, miraTexture);
-		//window.render(mira, 1);
-		//window.render(grass);
-
-		/*for (Entity& e : walls)
-		{
-			window.render(e, 0.25);
-		}*/
-
-		//Texto
-		//drawingText();
-		//acumulatedpoints++;
+	
 		window.display();
 		if (tamanio > 1) {
 			Sleep(1000);
 		}
 
-
-		/*imshow("Points Team 1", pointsTeam1);
-		imshow("Points Team 2", pointsTeam2);*/
-		//imshow("Points Team 1", mask1);
-		
 		imshow("Settings", Settings);
 	
 	}
