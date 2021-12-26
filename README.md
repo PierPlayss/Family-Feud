@@ -19,7 +19,7 @@ Fast Money:
 You can modify the txt files to change the answers and points.
 Example:
 
-Game
+*Game*
 
 3              // Number of answers
 
@@ -35,7 +35,7 @@ TOYS           // Answer n°3
 
 11             // Answer n°3
 
-Fast Money
+*Fast Money*
 
 TREES         // Answer n°1
 
