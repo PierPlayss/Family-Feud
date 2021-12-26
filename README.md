@@ -22,18 +22,30 @@ Example:
 Game
 
 3              // Number of answers
+
 TREES          // Answer n°1
+
 37             // Points n°1
+
 WRAPPING PAPER // Answer n°2
+
 19             // Points n°2
+
 TOYS           // Answer n°3
+
 11             // Answer n°3
 
 Fast Money
 
 TREES         // Answer n°1
+
 WRAPPING PAPER// Answer n°2
+
 TOYS          // Answer n°3
+
 37            // Points n°1 
+
 19            // Points n°2
+
 11            // Points n°3
+
