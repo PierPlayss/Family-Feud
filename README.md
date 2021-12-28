@@ -48,3 +48,10 @@ TOYS          // Answer n°3
 
 11            // Points n°3
 
+# Build 
+
+You need to install opencv and add the include directories and library directories to Visual Studio.
+
+https://github.com/opencv/opencv/archive/4.5.2.zip
+
+All the SDL2 files are in the include and lib folder you can download here. 
